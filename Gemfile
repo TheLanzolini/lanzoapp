@@ -3,8 +3,11 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
-# Use bootstrap-sass for CSS stuff
+# Use bootstrap-sass for CSS and sassy CSS
 gem 'bootstrap-sass', '2.3.2.0'
+
+#irreversibly encrypt the password to form a password hash
+gem 'bcrypt-ruby', '3.1.2'
 
 # Use mysql as the database for Active Record
 gem 'mysql2'
